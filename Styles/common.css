@@ -1,0 +1,31 @@
+/* Common Styles */
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.spacer10{
+    height:10px;
+    width:100%;
+}
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+.anchor-link{
+    text-decoration: none;
+}
+.anchor-link:focus{
+    outline:none;
+}
+
+.anchor-link h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+}
